@@ -21,7 +21,7 @@ html, body {
 }
 
 .main-top {
-    background-image: url(/img/x-home-main-header-4-bg.jpg);
+    background-image: url(https://raw.githubusercontent.com/nhn110112/no_animation_project/master/X%20The%20Theme/img/x-home-main-header-4-bg.jpg);
     background-size: cover;
     height: 100%;
 }
@@ -233,7 +233,7 @@ a:hover {
 }
 
 .cornerstone {
-    background: url(/img/x-home-main-bg-cornerstone.jpg);
+    background: url(https://raw.githubusercontent.com/nhn110112/no_animation_project/master/X%20The%20Theme/img/x-home-main-bg-cornerstone.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 115%;
