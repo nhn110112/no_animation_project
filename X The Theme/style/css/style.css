@@ -1,0 +1,284 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+    /* overflow-y: hidden; */
+    padding-left: 0px;
+    /* padding-right: 0px; */
+}
+
+.row {
+    height: 100%;
+    /* overflow-y: hidden; */
+}
+
+.main-top {
+    background-image: url(/img/x-home-main-header-4-bg.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.main-top>div {
+    font-size: 1.1rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    color: #7E7DA0;
+}
+
+.main-top>div:first-child {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.main-top>div:nth-child(2) {
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+}
+
+.co-wh {
+    color: white;
+}
+
+.btn-purchase {
+    position: absolute;
+    top: 408px;
+    left: 648px;;
+}
+
+.btn-purchase>button {
+    width: 224px;
+    height: 48px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition-duration: 2s;
+    z-index: 1000;
+}
+
+.navbar-top>ul>li:not(:first-child) {
+    display: inline-block;
+    width: 178px;
+    height: 54px;
+    border-left: 1px solid black;
+    text-align: center;
+    line-height: 3;
+}
+
+.navbar-top>ul>li:first-child {
+    display: inline-block;
+    width: 60px;
+    height: 54px;
+    text-align: center;
+}
+
+.navbar-top>ul>li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-top {
+    background-color: #333333;
+    color: #767676;
+}
+
+.main-navbar {
+    position: relative;
+    bottom: 7%;
+}
+
+.video {
+    height: 100%;
+}
+
+.first-title>div:first-child {
+    font-size: 3.4rem;
+    font-weight:bold;
+    text-align: center;
+}
+
+.first-title>div:last-child {
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #8C8C8C;
+}
+.first-title {
+    padding-bottom: 80px;
+}
+
+.sp {
+    background-color: rgb(241, 241, 241);
+    border-top: 1px solid black;
+    padding-bottom: 80px;
+}
+
+.sp::after {
+    content :"";
+    display: block;
+    /* padding: 5px; */
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 227.8%;
+    left: 50%;
+    -ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    transform: rotate(45deg);
+    background-color: white;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.sp>div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+a {
+    color: #45D180 !important;
+}
+
+a:hover {
+    color: rgb(41, 124, 76) !important;
+    text-decoration: none !important;
+}
+
+.sp>div>div {
+    display: inline-block;
+    
+}
+
+.sp-right {
+    width: 320px;
+    margin-left: 63px;
+    margin-top: -180px;
+}
+
+.sp-right>div:first-child {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.sp-right>div:nth-child(2) {
+    color: #B6B6B6;
+    line-height: 30px;
+}
+
+.sp-right>div:nth-child(3) {
+    padding-top: 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.sp-right>div:nth-child(5) {
+    color: #B6B6B6;
+}
+
+.img-left>img {
+    width: 671px;
+    height: 479px;
+    overflow: hidden;
+}
+
+.bg-yellow {
+    height: 150px;
+    background-color: #FFFF00;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.more-dark {
+    font-weight: bold;
+}
+
+.extension {
+    padding-top: 45px;
+}
+
+.extension>div {
+    text-align: center;
+}
+
+.extension>div:first-child {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.extension>div:nth-child(2) {
+    padding-top: 40px;
+    font-size: 1.3rem;
+    padding-bottom: 269px;
+}
+
+.cornerstone {
+    background: url(/img/x-home-main-bg-cornerstone.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 115%;
+}
+
+.cornerstone img {
+    position: relative;
+    top: 180px;
+    left: 37%;
+    width: 400px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.cornerstone>div:nth-child(2) {
+    color: #666565;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 230px;
+}
+
+.expert-customizable {
+    text-align: center;
+}
+
+.expert-customizable>div>div:first-child {
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.expert-customizable>div>div:nth-child(2) {
+    color: #5D5D5D;
+    font-size: 1.3rem;
+}
+
+.expert-customizable span {
+    font-weight: bold;
+    color: black;
+}
+
+.expert {
+    padding-bottom: 25px;
+}
+
+.expert img {
+    padding: 44px 10px;
+}
