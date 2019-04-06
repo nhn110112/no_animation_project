@@ -1,0 +1,231 @@
+    *{
+        margin: 0; 
+        padding: 0;
+    }
+    
+    body>div>div>div {
+        display: inline-block;
+    }
+
+    body {
+        background-color: rgb(247, 247, 247) !important;
+    }
+
+    a {
+        color: black !important;
+    }
+
+    a:hover {
+        text-decoration: none !important;
+        color: black !important;
+    }
+
+    .main {
+        width: 100%;
+        background-color: white;
+        border-bottom: 1px solid rgb(100, 100, 100);
+    }
+
+    .main-nav {
+        width: 100%;
+        display: inline-block;
+        line-height: 74px;
+    }
+
+    .main-nav div {
+        display: inline-block;
+    }
+
+    .logo {
+        font-size: 1.5vw;
+        cursor: pointer;
+    }
+
+    .search {
+        padding-left: 219px;
+        padding-right: 244px;
+    }
+
+    .search>input {
+        height: 30px;
+        width: 215px;
+    }
+
+    input[placeholder] {
+        text-align: center;
+    }
+
+    .nav-opt {
+        font-size: 1.5rem;
+        width: 132px;
+    }
+
+    .nav-opt>div {
+        padding-left: 15px;
+        cursor: pointer;
+    }
+
+    .profile {
+        position: relative;
+    }
+
+    .ava {
+        font-size: 10rem;
+        padding: 0 40px;
+        color: #DBDBDB;
+        cursor: pointer;
+    }
+
+    .user {
+        padding-left: 60px;
+        position: absolute;
+        line-height: 40px;
+        top: 65px;
+    }
+
+    .user>div>div {
+        display: inline-block;
+    }
+
+    .user>div:nth-child(2)>div:not(:last-child) {
+        padding-right: 38px;
+    }
+
+    .user>div:nth-child(2) {
+        cursor: pointer;
+    }
+
+    .name>div:first-child {
+        font-size: 1.8rem;
+    }
+
+    .name a {
+        margin-left: 15px;
+        border: 1px solid black;
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    .page {
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    .page>div>div {
+        padding: 20px 0;
+    }
+
+    .another img {
+        width: 380px;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .another {
+        background-color: white;
+        position: relative;
+    }
+
+    .download {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+    }
+
+    .download>a {
+        margin-left: 15px;
+        border: 1px solid black;
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    .download>div:first-child {
+        font-weight: bold;
+    }
+
+    .download>div>div {
+        display: inline-block;
+    }
+
+    .app-store>div {
+        display: inline-block;
+    }
+
+    .app-store>div:first-child {
+        font-size: 2rem;
+        margin-left: 15px;
+    }
+
+    .app-store {
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-top: 20px;
+    }
+
+    .right {
+        line-height: 15px;
+        padding: 0 15px;
+    }
+
+    .right>div:first-child {
+        font-size: 0.6rem;
+    }
+
+    .right>div:nth-child(2) {
+        font-size: 1.2rem;
+    }
+
+    .google-play>div:first-child {
+        font-size: 2rem;
+        margin-left: 15px;
+    }
+
+    .google-play {
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+
+    .google-play .right>div:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .google-play>div {
+        display: inline-block;
+    }
+
+    .footer {
+        margin-top: 38px;
+    }
+
+    .footer>div {
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    .footer>div:first-child div {
+        display: inline;
+    }
+
+    .footer>div:first-child div:not(:last-child) {
+        padding-right: 12px;
+    }
+
+    .footer>div:last-child {
+        margin-top: 8px;
+        margin-bottom: 40px;
+    }
+
+    .footer a {
+        color: #003569;
+        font-weight: bold;
+    }
