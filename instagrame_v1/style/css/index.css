@@ -1,231 +1,277 @@
-    *{
-        margin: 0; 
-        padding: 0;
-    }
-    
-    body>div>div>div {
-        display: inline-block;
-    }
+body {
+    background-color: rgba(245, 245, 245, 0.747);
+}
 
-    body {
-        background-color: rgb(247, 247, 247) !important;
-    }
+.main {
+    border-bottom: 1px solid rgb(175, 175, 175);
+    height: 76px;
+    background-color: white;
+}
 
-    a {
-        color: black !important;
-    }
+a {
+    color: black;
+}
 
-    a:hover {
-        text-decoration: none !important;
-        color: black !important;
-    }
+a:hover {
+    text-decoration: none;
+}
 
-    .main {
-        width: 100%;
-        background-color: white;
-        border-bottom: 1px solid rgb(100, 100, 100);
-    }
+.main-nav {
+    display: flex;
+    width: 968px;
+    margin: auto;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
 
+.logo {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.verti {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.verti {
+    width: 0px;
+    border: 0.5px solid black;
+    height: 25px;
+}
+
+.nav-opt {
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.nav-opt>div:nth-child(2) {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.search {
+    position: relative
+}
+
+.errspan {
+    float: left;
+    left: 75px;
+    top: 8px;
+    position: relative;
+    z-index: 2;
+}
+
+input[placeholder = "Tìm kiếm"] {
+    text-align: center;
+    width: 216px;
+    border: none;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.747);
+}
+
+.main-1, .page, .another,.footer {
+    width: 936px;
+}
+
+.main-1 {
+    display: flex;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.name>div:not(:first-child) {
+    margin-left: 20px;
+}
+
+.follow>div:not(:first-child) {
+    margin-left: 20px;
+}
+
+.ava {
+    display: grid;
+    place-items: center;
+    font-size: 10rem;
+    padding: 45px 70px;
+    color: #DBDBDB;
+    cursor: pointer;
+}
+
+.user {
+    padding-left: 30px;
+}
+
+.name>div:first-child{
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+
+.name>div:nth-child(2){
+    border: 1px solid rgb(172, 172, 172);
+    background-color:  rgba(245, 245, 245, 0.747);
+    font-weight: 500;
+    display: grid;
+    place-items: center;
+    height: 30px;
+    width: 174px;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+
+.follow {
+    margin-top: 15px;
+}
+
+.page {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.page>div {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-weight: 500;
+}
+
+.page>div:not(:first-child) {
+    margin-left: 60px;
+    color: #999B9C;
+}
+
+.page>div:first-child{
+    border-top: 1px solid black;
+}
+
+.another {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+}
+
+.pict>img {
+    width: 380px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.download {
+    background-color: white;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.download>div:first-child {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.download>div:nth-child(2) {
+    font-size: 1.1rem;
+}
+
+.download>div:last-child {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.download>div:last-child>div {
+    width: 136px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+.app-store, .google-play {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.app-store, .google-play > div:first-child {
+    font-size: 1.7rem;
+}
+.right {
+    margin-left: 6px;
+}
+
+.right>div:first-child {
+    font-size: 0.6rem;
+    text-align: left;
+}
+
+.right>div:last-child {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+}
+
+.footer {
+    margin: auto;
+}
+
+.first {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+    margin-top: 35px;
+}
+
+.first>div:not(:first-child) {
+    margin-left: 12px;
+}
+
+.first>div>a {
+    color: #004E93;
+    font-weight: 500;
+}
+
+.last {
+    font-size: 0.8rem;
+    color: rgb(172, 172, 172);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1020px){
     .main-nav {
-        width: 100%;
-        display: inline-block;
-        line-height: 74px;
+        width: calc(100% - 30px);
     }
+}
 
-    .main-nav div {
-        display: inline-block;
+@media only screen and (max-width: 990px){
+    .main-1, .page, .another,.footer {
+        width: calc(100% - 30px);
     }
+}
 
-    .logo {
-        font-size: 1.5vw;
-        cursor: pointer;
-    }
+.main-navbar {
+    position: relative;
+    top: 0px;
+}
 
-    .search {
-        padding-left: 219px;
-        padding-right: 244px;
-    }
-
-    .search>input {
-        height: 30px;
-        width: 215px;
-    }
-
-    input[placeholder] {
-        text-align: center;
-    }
-
-    .nav-opt {
-        font-size: 1.5rem;
-        width: 132px;
-    }
-
-    .nav-opt>div {
-        padding-left: 15px;
-        cursor: pointer;
-    }
-
-    .profile {
-        position: relative;
-    }
-
-    .ava {
-        font-size: 10rem;
-        padding: 0 40px;
-        color: #DBDBDB;
-        cursor: pointer;
-    }
-
-    .user {
-        padding-left: 60px;
-        position: absolute;
-        line-height: 40px;
-        top: 65px;
-    }
-
-    .user>div>div {
-        display: inline-block;
-    }
-
-    .user>div:nth-child(2)>div:not(:last-child) {
-        padding-right: 38px;
-    }
-
-    .user>div:nth-child(2) {
-        cursor: pointer;
-    }
-
-    .name>div:first-child {
-        font-size: 1.8rem;
-    }
-
-    .name a {
-        margin-left: 15px;
-        border: 1px solid black;
-        padding: 5px 10px;
-        font-size: 0.8rem;
-        font-weight: bold;
-        border-radius: 5px;
-    }
-
-    .page {
-        display: block;
-        font-size: 0.8rem;
-    }
-
-    .page>div>div {
-        padding: 20px 0;
-    }
-
-    .another img {
-        width: 380px;
-        height: auto;
-        overflow: hidden;
-    }
-
-    .another {
-        background-color: white;
-        position: relative;
-    }
-
-    .download {
-        position: absolute;
-        top: 35%;
-        left: 50%;
-    }
-
-    .download>a {
-        margin-left: 15px;
-        border: 1px solid black;
-        padding: 5px 10px;
-        font-size: 0.8rem;
-        font-weight: bold;
-        border-radius: 5px;
-    }
-
-    .download>div:first-child {
-        font-weight: bold;
-    }
-
-    .download>div>div {
-        display: inline-block;
-    }
-
-    .app-store>div {
-        display: inline-block;
-    }
-
-    .app-store>div:first-child {
-        font-size: 2rem;
-        margin-left: 15px;
-    }
-
-    .app-store {
-        color: white;
-        background-color: black;
-        border: 1px solid black;
-        border-radius: 3px;
-        margin-top: 20px;
-    }
-
-    .right {
-        line-height: 15px;
-        padding: 0 15px;
-    }
-
-    .right>div:first-child {
-        font-size: 0.6rem;
-    }
-
-    .right>div:nth-child(2) {
-        font-size: 1.2rem;
-    }
-
-    .google-play>div:first-child {
-        font-size: 2rem;
-        margin-left: 15px;
-    }
-
-    .google-play {
-        color: white;
-        background-color: black;
-        border: 1px solid black;
-        border-radius: 3px;
-        margin-top: 20px;
-        margin-left: 5px;
-    }
-
-    .google-play .right>div:nth-child(2) {
-        font-size: 1rem;
-    }
-
-    .google-play>div {
-        display: inline-block;
-    }
-
-    .footer {
-        margin-top: 38px;
-    }
-
-    .footer>div {
-        display: block;
-        font-size: 0.8rem;
-    }
-
-    .footer>div:first-child div {
-        display: inline;
-    }
-
-    .footer>div:first-child div:not(:last-child) {
-        padding-right: 12px;
-    }
-
-    .footer>div:last-child {
-        margin-top: 8px;
-        margin-bottom: 40px;
-    }
-
-    .footer a {
-        color: #003569;
-        font-weight: bold;
-    }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    transition-duration: 300ms;
+    z-index: 1000;
+}
